@@ -32,7 +32,8 @@ NKI, PNC, AGE, IRR, FTD
 
 ### Github repo
 
-https://github.com/PennLINC/aslprep
+[PennLINC/aslprep](https://github.com/PennLINC/aslprep)
+
 
 ### Path to data on filesystem
 
@@ -44,4 +45,5 @@ $pennlinc_asl
 
 ### Code documentation
 
-https://aslprep.readthedocs.io/en/latest/
+[readthedocs](https://aslprep.readthedocs.io/en/latest/)
+
