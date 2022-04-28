@@ -6,7 +6,7 @@
 
 ### Project Lead(s) 
 
-Azeez Adebimpe, Maxwell Bertolero, Matthew Cieslak
+Azeez Adebimpe, Maxwell Bertolero, & Matthew Cieslak
 
 ### Faculty Lead(s)
 
