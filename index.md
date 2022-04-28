@@ -1,8 +1,7 @@
 <br>
-<br>
-# ASLPrep: A Generalizable Platform for Processing of Arterial Spin Labeled MRI and Quantification of Regional Brain Perfusion
+# ASLPrep, A Generalizable Platform for Processing of Arterial Spin Labeled MRI and Quantification of Regional Brain Perfusion
 
-*ASLPrep is a Arterial Spin Labeling (ASL) data preprocessing and Cerebral Blood FLow (CBF) computation pipeline that is designed to provide an easily accessible, state-of-the-art interface that is robust to variations in scan acquisition protocols and that requires minimal user input, while providing easily interpretable and comprehensive error and output reporting. It performs basic processing steps (coregistration, normalization, unwarping, noise component extraction, segmentation, skullstripping etc.), CBF computation, denoising CBF, CBF partial volume correction and providing outputs that can be easily submitted to a variety of group level analyses, including task-based or resting-state CBF, graph theory measures, surface or volume-based statistics, etc.*
+*ASLPrep is an Arterial Spin Labeling (ASL) data preprocessing and Cerebral Blood FLow (CBF) computation pipeline that is designed to provide an easily accessible, state-of-the-art interface that is robust to variations in scan acquisition protocols and that requires minimal user input, while providing easily interpretable and comprehensive error and output reporting. It performs basic processing steps (coregistration, normalization, unwarping, noise component extraction, segmentation, skullstripping etc.), CBF computation, denoising CBF, CBF partial volume correction and providing outputs that can be easily submitted to a variety of group level analyses, including task-based or resting-state CBF, graph theory measures, surface or volume-based statistics, etc.*
 
 ### Project Lead(s) 
 
