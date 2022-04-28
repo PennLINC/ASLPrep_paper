@@ -36,7 +36,7 @@ https://github.com/PennLINC/aslprep
 
 ### Path to data on filesystem
 
-/cbica/home/bertolem/bpd
+/cbica/projects/aslprep
 
 ### Slack Channel
 
