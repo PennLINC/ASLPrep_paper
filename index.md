@@ -24,7 +24,7 @@ Early 2020
 
 ### Current Project Status
 
-Published May 2022 in Nature Methods
+Published May 2022 in Nature Methods. Code for figures can be found at [PennLINC/aslprep_paper](https://github.com/PennLINC/aslprep)
 
 ### Dataset
 
