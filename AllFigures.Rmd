@@ -152,8 +152,6 @@ CBF_Age_plot <- ggplot() + xlim(8, 85)+ ylim(0,140) +
   theme(axis.title.y = element_blank(),axis.ticks.y = element_blank(),axis.text.y = element_blank()) +
   theme(axis.text = element_text(size = rel(1.2))) + theme(axis.line = element_line(colour = 'black', size = 0.5), axis.ticks.length = unit(.25, "cm")) +
   theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(), panel.background = element_blank()) +
-  geom_point(data = predicts, aes(x, y), colour = "darksalmon", alpha=0.7 ) +  
-  #geom_point(data=datay,aes(x=AGE, y=CBF.GM),size=1)+ 
   geom_point(data=pnc,aes(x=AGE, y=CBF.GM),shape=21,size=2,fill='#e34a33', color="white")+ 
   geom_point(data=nki,aes(x=AGE, y=CBF.GM),shape=21,size=2,fill="#3182bd", color="white")+ 
   geom_point(data=irr,aes(x=AGE, y=CBF.GM),shape=21,size=2,fill="#31a354", color="white")+ 
@@ -291,7 +289,7 @@ pvc=pvc + theme_classic() + scale_x_discrete(limits = rev) +
 theme(legend.position = "none")
 
 # SCRUB
-datasetsy = datasets[datasets$CBFTYPE =='SCRUB',]
+datasetsy = subset(datasets[datasets$CBFTYPE =='SCRUB',], Datasets != "FTD")
 datasetsy = na.omit(datasetsy)
 
 dodge <- position_dodge(width = 0.5)
@@ -368,8 +366,6 @@ basil_Age_plot <- ggplot() + xlim(8, 85)+ ylim(0,140) +
   theme(axis.title.y = element_text(size = rel(1.6),vjust=-1.2)) + 
   theme(axis.text = element_text(size = rel(1.4))) + theme(axis.line = element_line(colour = 'black', size = .5), axis.ticks.length = unit(.25, "cm")) +
   theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(), panel.background = element_blank()) +
-  geom_point(data = predicts, aes(x, y), colour = "darksalmon", alpha=0.7 ) +  
-  #geom_point(data=datay,aes(x=AGE, y=CBF.GM),size=1)+ 
   geom_point(data=pnc,aes(x=AGE, y=CBF.GM),shape=21,size=2,fill='#e34a33', color="white")+ 
   geom_point(data=nki,aes(x=AGE, y=CBF.GM),shape=21,size=2,fill="#3182bd", color="white")+ 
   geom_point(data=irr,aes(x=AGE, y=CBF.GM),shape=21,size=2,fill="#31a354", color="white")+ 
@@ -420,7 +416,6 @@ pvc_Age_plot <- ggplot() + xlim(8, 85)+ ylim(0,140) +
   theme(axis.title.y = element_text(size = rel(1.6))) + 
   theme(axis.text = element_text(size = rel(1.4))) + theme(axis.line = element_line(colour = 'black', size = .5), axis.ticks.length = unit(.25, "cm")) +
   theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(), panel.background = element_blank()) +
-  geom_point(data = predicts, aes(x, y), colour = "darksalmon", alpha=0.7 ) +  
   #geom_point(data=datay,aes(x=AGE, y=CBF.GM),size=1)+ 
   geom_point(data=pnc,aes(x=AGE, y=CBF.GM),shape=21,size=2,fill='#e34a33', color="white")+ 
   geom_point(data=nki,aes(x=AGE, y=CBF.GM),shape=21,size=2,fill="#3182bd", color="white")+ 
@@ -474,8 +469,6 @@ scrub_Age_plot <- ggplot() + xlim(8, 85)+ ylim(0,140) +
   theme(axis.title.y = element_text(size = rel(1.6))) + 
   theme(axis.text = element_text(size = rel(1.4))) + theme(axis.line = element_line(colour = 'black', size = .5), axis.ticks.length = unit(.25, "cm")) +
   theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(), panel.background = element_blank()) +
-  geom_point(data = predicts, aes(x, y), colour = "darksalmon", alpha=0.7 ) +  
-  #geom_point(data=datay,aes(x=AGE, y=CBF.GM),size=1)+ 
   geom_point(data=pnc,aes(x=AGE, y=CBF.GM),shape=21,size=2,fill='#e34a33', color="white")+ 
   geom_point(data=nki,aes(x=AGE, y=CBF.GM),shape=21,size=2,fill="#3182bd", color="white")+ 
   geom_point(data=irr,aes(x=AGE, y=CBF.GM),shape=21,size=2,fill="#31a354", color="white")+ 
